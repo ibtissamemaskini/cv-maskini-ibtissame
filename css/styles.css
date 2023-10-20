@@ -91,6 +91,36 @@
   }
 }
 
+/* Custom CSS to change the background color of the navigation bar */
+#sideNav {
+  background-color: #10443E; /* Replace 'red' with the desired color */
+}
+
+
+.custom-color {
+  color: #10443E; /* Remplacez "blue" par la couleur de votre choix */
+}
+
+.custom-link {
+  color: #10443E; /* Remplacez "red" par la couleur de votre choix */
+  text-decoration: none; /* Pour supprimer le soulignement du lien si nécessaire */
+}
+
+.social-icon i {
+  color: initial; /* Couleur par défaut de l'icône LinkedIn (peut être différente selon votre thème) */
+  transition: color 0.3s; /* Animation de transition de la couleur */
+
+  /* Au survol, la couleur de l'icône change */
+  &:hover {
+      color: #10443E; /* Remplacez "red" par la couleur que vous souhaitez au survol */
+  }
+}
+
+.custom-color {
+  color: #10443E; /* Remplacez "red" par la couleur de votre choix */
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -118,7 +148,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #10443E;
+}
+
+h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #3a3939;
 }
 
 h1, .h1 {
@@ -10927,7 +10966,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #10443E;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10937,7 +10976,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #495057;
 }
 
 .dev-icons {
